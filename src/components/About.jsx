@@ -11,7 +11,7 @@ const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className='w-full violet-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
         options={{
@@ -45,13 +45,15 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-7xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+<p>“Optimism is an occupational hazard of programming; feedback is the treatment.” - Kent Beck &nbsp; </p>
+
+As a driven software developer, I specialize in building robust, scalable web applications using React, Node.js, Next.js, and PostgreSQL. I’m passionate about transforming ambitious ideas into reliable, production-ready technology through disciplined development and continuous feedback.
+
+My experience spans full-stack development, cloud deployment, and machine learning integration, with a strong focus on delivering measurable impact and exceptional user experiences. I thrive in agile, collaborative environments where experimentation and evidence-based decision-making drive innovation.
+
+Always eager to connect with professionals who value craftsmanship, data-driven thinking, and meaningful collaboration to create technologies that move businesses forward.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
