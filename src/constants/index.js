@@ -111,12 +111,38 @@ const technologies = [
 ];
 
 const experiences = [
+  // {
+  //   title: "React.js Developer",
+  //   company_name: "Starbucks",
+  //   icon: starbucks,
+  //   iconBg: "#383E56",
+  //   date: "March 2020 - April 2021",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "React Native Developer",
+  //   company_name: "Tesla",
+  //   icon: tesla,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2021 - Feb 2022",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer Trainee",
+    company_name: "Toric",
+    icon: reactjs,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2024 - July 2025",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -125,42 +151,18 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Developer Engineer",
+    company_name: "Toric",
+    icon: javascript,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Frontend Development: Translated Figma designs into responsive, dynamic interfaces using React, Next.js, and TypeScript, delivering fast, accessible user experiences across devices",
+      "Backend Engineering: Built and optimized RESTful APIs with Node.js, Express, and PostgreSQL, emphasizing clean architecture, performance, and maintainability",
+      "Payment Integration: Implemented Stripe for secure transactions and subscription management, integrating with custom authentication and user flows",
+      "Cloud & DevOps: Deployed full-stack applications on AWS, containerized services with Docker, and automated testing and deployments using GitHub Actions and CI/CD pipelines",
+      "AI & Machine Learning: Trained and integrated a Siamese neural network for similarity detection, leveraging Python, TensorFlow, and efficient model-serving techniques",
+      "Collaboration & Process: Worked in agile, feedback-driven teams focused on iterative improvement, disciplined development, and evidence-based innovation."
     ],
   },
 ];
