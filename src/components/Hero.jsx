@@ -21,7 +21,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100 max-w-2xl`}>
             Full-Stack & AI-Driven Developer <br className='sm:block hidden' />
-            React, Next.js, Node.js, PostgreSQL, AWS | Integrating Machine Learning into Web Solutions
+            React, Next.js, Node.js, PostgreSQL
           </p>
         </div>
       </div>
