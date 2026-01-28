@@ -24,6 +24,10 @@ import {
   tripguide,
   threejs,
 } from "../assets";
+import traffic from "../assets/traffic.png";
+import emotion from "../assets/emotion.jpeg";
+import eggboiler from "../assets/eggboiler.png";
+
 
 export const navLinks = [
   {
@@ -48,10 +52,6 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -196,66 +196,68 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Adaptive Traffic Signal Optimisation",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Simulation-based smart traffic control system built using SUMO and Python. The system dynamically adjusts traffic signal timings based on real-time vehicle flow to minimize average waiting time and improve overall traffic efficiency. Includes fixed-timing and Q-learning based adaptive control strategies.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sumo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "reinforcement-learning",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: traffic, // add a SUMO simulation screenshot
+    source_code_link: "https://github.com/ColinMich/Adaptive-Traffic-Control",
+  },
+
+  {
+    name: "Emotion Wellness Partner",
+    description:
+      "AI-powered emotion detection web application that analyzes facial expressions using OpenCV and a CNN model trained on the FER-13 dataset. The system stores persistent emotional states and recommends personalized music and activities to improve emotional well-being.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "opencv",
+        color: "green-text-gradient",
+      },
+      {
+        name: "deep-learning",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: emotion, // webcam/emotion UI screenshot
+    source_code_link: "https://github.com/",
+  },
+
+  {
+    name: "Interactive Egg Boiler",
+    description:
+      "A simple and interactive React-based application that allows users to set egg boiling preferences (soft, medium, hard). Features a visual timer, real-time countdown, and clean UI to demonstrate React hooks and component state management.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "ui-logic",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
+    image: eggboiler, // minimal UI screenshot
     source_code_link: "https://github.com/",
   },
 ];
