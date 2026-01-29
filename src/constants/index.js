@@ -138,19 +138,6 @@ const experiences = [
   //   ],
   // },
   {
-    title: "Software Engineer Trainee",
-    company_name: "Toric",
-    icon: reactjs,
-    iconBg: "#383E56",
-    date: "July 2024 - July 2025",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Software Developer Engineer",
     company_name: "Toric",
     icon: javascript,
@@ -163,6 +150,19 @@ const experiences = [
       "Cloud & DevOps: Deployed full-stack applications on AWS, containerized services with Docker, and automated testing and deployments using GitHub Actions and CI/CD pipelines",
       "AI & Machine Learning: Trained and integrated a Siamese neural network for similarity detection, leveraging Python, TensorFlow, and efficient model-serving techniques",
       "Collaboration & Process: Worked in agile, feedback-driven teams focused on iterative improvement, disciplined development, and evidence-based innovation."
+    ],
+  },
+  {
+    title: "Software Engineer Trainee",
+    company_name: "Toric",
+    icon: reactjs,
+    iconBg: "#383E56",
+    date: "July 2024 - July 2025",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
