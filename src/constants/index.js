@@ -138,7 +138,7 @@ const experiences = [
   //   ],
   // },
   {
-    title: "Software Developer Engineer",
+    title: "Software Engineer I",
     company_name: "Toric",
     icon: javascript,
     iconBg: "#E6DEDD",
@@ -258,7 +258,7 @@ const projects = [
       },
     ],
     image: eggboiler, // minimal UI screenshot
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ColinMich/eggBoiler",
   },
 ];
 
